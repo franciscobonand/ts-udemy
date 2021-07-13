@@ -1,3 +1,4 @@
+"use strict";
 // let userInput: any
 var userInput;
 var userName;
@@ -11,6 +12,6 @@ function generateError(msg, code) {
         message: msg,
         errorCode: code
     };
+    // while(true) {}
 }
 var result = generateError("An error occurred!", 500);
-console.log(result);
