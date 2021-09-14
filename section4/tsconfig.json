@@ -78,8 +78,7 @@
   "exclude": [
     "node_modules", // automatically excluded when "exclude" is not specified
     "section2",
-    "section3",
-    "section4"
+    "section3"
   ]
   // "include": [] => does the opposite of "exclude"
     // "files": [] => "include" only for files
